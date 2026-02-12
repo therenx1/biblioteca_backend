@@ -26,7 +26,8 @@ import com.biblioteca.service.trabajadoresService;
 
 @RestController
 @RequestMapping("api/admin")
-@CrossOrigin(origins = "*", allowedHeaders = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE, RequestMethod.OPTIONS})public class AdminController {
+@CrossOrigin(origins = "*", allowedHeaders = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE, RequestMethod.OPTIONS})
+public class AdminController {
 	 
     @Autowired
     private trabajadoresService trabajadorService;
