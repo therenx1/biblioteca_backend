@@ -20,9 +20,10 @@ import com.biblioteca.Entity.usuario;
 
 import com.biblioteca.service.UsuariosService;
 
+
 @RestController
 @RequestMapping("api/usuarios")
-@CrossOrigin(origins = "http://localhost:4200", allowedHeaders = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE, RequestMethod.OPTIONS})
+@CrossOrigin(origins = "*", allowedHeaders = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE, RequestMethod.OPTIONS})
 public class UsuariosController {
 
 	@Autowired
