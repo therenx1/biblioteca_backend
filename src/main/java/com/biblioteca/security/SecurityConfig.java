@@ -33,6 +33,8 @@ public class SecurityConfig {
                         "/api/usuarios/**",
                         "/api/libros/**",
                         "/api/estadoLibro/**",
+                        "/api/categoria/**",
+
                         "/api/autores/**"
                 ).authenticated()
                 .requestMatchers("/api/prestamos/**")
